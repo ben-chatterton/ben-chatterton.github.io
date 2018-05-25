@@ -87,19 +87,23 @@ h1 {
   display: inline;
   font-family: 'Barlow Condensed', sans-serif;
   display:table-cell;
-  letter-spacing: -0.5px;
+  padding-bottom: 2px;
+
+}
+h1:hover {
+  color: #ff8d30;
 
 }
 h2 {
 	font-size:15px;
-	font-weight: normal;
+	font-weight: 500;
   display: table-cell;
   vertical-align: middle;
-  margin: -15px;
-  letter-spacing: 0.5px;
+  margin: -13px;
+  letter-spacing: 0.2px;
 }
 #divide {
-  width: 16px;
+  width: 14px;
   display: table-cell;
 }
 q:before,q:after {
@@ -269,13 +273,14 @@ a{
     animation-delay: 78s;
 }
 .slideshow li:nth-child(15) span {
-    background-image: url('assets/images/BF2.jpg');
+    background-image: url('assets/images/PL1.jpg');
     -webkit-animation-delay: 84s;
     -moz-animation-delay: 84s;
     -o-animation-delay: 84s;
     -ms-animation-delay: 84s;
     animation-delay: 84s;
 }
+
 
 /* Animation for the slideshow images */
 @-webkit-keyframes imageAnimation {
