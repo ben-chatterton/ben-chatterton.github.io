@@ -87,7 +87,7 @@ h1 {
   display: inline;
   font-family: 'Barlow Condensed', sans-serif;
   display:table-cell;
-  letter-spacing: 1px;
+  letter-spacing: -0.5px;
 
 }
 h2 {
