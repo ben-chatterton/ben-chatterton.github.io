@@ -378,20 +378,31 @@ a{
 @media only screen and (max-width: 850px) {
     #nav-container {
       margin-bottom: 0;
+<<<<<<< HEAD
       margin-top: 14px;
     }
     #fixed-nav {
       height: 135px;
     }
+=======
+    }
+    #fixed-nav {
+      height: 135px;
+    }
+>>>>>>> 33423dc8f42422344928445eed7d337cbe6472b5
 
     #nav-socials {
       text-align: center;
       font-size: 24px;
       margin-bottom: 10px;
+<<<<<<< HEAD
       display: block;
       flex: none;
       width: 100%;
 /*      flex: 1 0 380px; */
+=======
+      flex: 1 0 380px;
+>>>>>>> 33423dc8f42422344928445eed7d337cbe6472b5
     }
     #li-soc-2 {
       display: inline-block;
@@ -407,12 +418,18 @@ a{
       vertical-align: middle;
       margin-bottom: 12px;
       font-size: 42px;
+<<<<<<< HEAD
       flex: none;
+=======
+>>>>>>> 33423dc8f42422344928445eed7d337cbe6472b5
     }
     h2 {
       display:block;
       margin-bottom: 5px;
+<<<<<<< HEAD
       flex: none;
+=======
+>>>>>>> 33423dc8f42422344928445eed7d337cbe6472b5
     }
     #divide {
       display: none;
