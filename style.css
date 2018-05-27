@@ -31,22 +31,16 @@ a:active, a:hover {
   padding: 0 30px;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 #nav-socials {
-  margin-top: 2px;
+  margin-bottom: 2px;
   font-size: 24px;
   flex: 1 0 180px;
   text-align: right;
 }
 #nav-socials > a > svg{
   margin-left: 12px;
-}
-#li-soc {
-  display:inline-block;
-  padding: 0 6px 0 0;
-  font-size: 24px;
-  vertical-align: middle;
 }
 #nav-email {
   flex: 1 0 540px;
@@ -106,9 +100,6 @@ h2 {
 }
 #job-title {
   padding-top: 1px;
-}
-#li-soc-2 {
-  display: none;
 }
 #divide {
   width: 12px;
@@ -385,43 +376,50 @@ a{
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 850px) {
-
-    #fixed-nav {
-      height: 114px;
-    }
     #nav-container {
-      padding: 0;
+      margin-bottom: 0;
+      margin-top: 14px;
     }
+    #fixed-nav {
+      height: 135px;
+    }
+
     #nav-socials {
       text-align: center;
       font-size: 24px;
-      margin-bottom: 16px;
-      flex: 1 0 380px;
+      margin-bottom: 10px;
+      display: block;
+      flex: none;
+      width: 100%;
+/*      flex: 1 0 380px; */
     }
     #li-soc-2 {
       display: inline-block;
     }
     #nav-email {
       text-align: center;
+      display: block;
+      flex: none;
+      width: 100%;s
     }
     h1 {
       display:block;
       vertical-align: middle;
-      margin: -16px;
+      margin-bottom: 12px;
+      font-size: 42px;
+      flex: none;
     }
     h2 {
       display:block;
-      margin: 17px;
+      margin-bottom: 5px;
+      flex: none;
     }
     #divide {
       display: none;
     }
-    #li-soc {
-    display:none;
-      }
   @media only screen and (max-width: 540px) {
     #nav-email {
-      flex: 1 0 400px;
+/*      flex: 1 0 400px; */
     }
 
   }
